@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client()
-const config = new JSONdb('./config.json')
+const config = require('./config.json')
 const prettyms = require('pretty-ms')
 const ms = require('ms')
 const prefix = config.prefix;
